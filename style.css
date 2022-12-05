@@ -1,0 +1,220 @@
+body{
+    background:rgb(197, 105, 74);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.links {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    padding: 2rem;
+    color:aliceblue;
+}
+.header-img{
+    width: 13rem;
+    height: 17rem;
+    padding: 2rem;
+    border-radius: 500%;
+    cursor:pointer;
+}
+.presentation-h1{
+    margin-bottom: 150px;
+    border: 3px solid black;
+    color:aliceblue;
+    text-align: center;
+    border-radius: 50%;
+
+}
+ .header-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ .header-div .presentation-personnelle{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+ 
+.image-personnelle img{
+    width: 500px;
+    height: 300px;
+    border-radius: 97% 3% 70% 30% / 99% 0% 100% 1% ;
+}
+.image-hobbie img{
+    width: 500px;
+    height: 300px;
+    border-radius: 97% 3% 70% 30% / 99% 0% 100% 1% ;
+}
+.header-div .h2{
+    font-size: 30px;
+    
+}
+.header-div .p{
+    font-size: 20px;
+}
+
+.header-div .presentation-hobbies{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.header-div .formation-ecole-une{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.header-div .formation-ecole-deux{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.header-div .formation-ecole-trois{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+.presentation-hobbies img{
+    width: 500px;
+    height: 300px;
+    border-radius: 97% 3% 70% 30% / 99% 0% 100% 1% ;
+}
+
+
+.title-h1{
+    margin-bottom: 150px;
+    border: 3px solid black;
+    color:aliceblue;
+    text-align: center;
+    border-radius: 50%;
+}
+.logo-ecole img{
+    width: 500px;
+    height: 300px;
+    border-radius: 97% 3% 70% 30% / 99% 0% 100% 1% ;
+}
+
+
+.experience-h1{
+    margin-bottom: 150px;
+    border: 3px solid black;
+    color:aliceblue;
+    text-align: center;
+    height: 45px;
+    border-radius: 50%;
+}
+
+
+.header-div .experience-une{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.header-div .experience-deux{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.header-div .experience-trois{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+
+.contact-h1{
+    margin-bottom: 150px;
+    border: 3px solid black;
+    color:aliceblue;
+    text-align: center;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.contact-un h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.header-div .contact img{
+        width: 350px;
+        height: 300px;
+        border-radius: 97% 3% 70% 30% / 99% 0% 100% 1% ;
+}
+.form-title{
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid rgb(157, 9, 58);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+   
+}
+.form{
+    width: 25vw; /*Ne prend que 40% du body*/
+    height: auto;
+    background: rgb(180, 68, 86);
+    /*inset: 70%; /*sert à positionner**/
+    margin: 30px auto; /*pour les 4 valeurs:0 poour top/bottom*/
+    border: 2px solid black;
+    margin-bottom: 100px;
+    
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 20px;
+}
+
+.form-row label{
+    font-size: 1.5rem;
+}
+
+.form-button button{
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background: rgb(96, 96, 52);
+}
+.form-button button:hover{
+    background: rgb(93, 123, 93);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.presentation-footer .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    background: grey;
+    font-size: 20px;
+}
+/**   po**/

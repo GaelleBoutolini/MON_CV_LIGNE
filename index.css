@@ -1,0 +1,91 @@
+/*body{
+    background:rgb(197, 105, 74);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.links {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    padding: 2rem;
+    color:aliceblue;
+}
+
+.presentation-h1{
+    margin-bottom: 150px;
+    border: 1px solid black;
+}
+.header-img{
+    width: 13rem;
+    height: 17rem;
+    padding: 2rem;
+    border-radius: 500%;
+}
+.presentation-h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.header-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.image-personnelle{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+.presentation-personnelle{
+    display: inline-block;
+    width: 500px;
+    height: 180px;
+    border: 1px solid ;
+    text-align: center;
+
+}
+
+.image-hobbie{
+    width: 200px;
+    height: 200px;
+}
+.presentation-hobbies{
+    display: inline-block;
+    border: 1px solid ;
+    text-align: center;
+    
+
+}
+
+.presentation-footer{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.presentation-footer .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid black;
+    background: grey;
+    
+}
+.presentation-footer a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:aliceblue;
+}
