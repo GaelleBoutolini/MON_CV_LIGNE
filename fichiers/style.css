@@ -18,7 +18,7 @@ body{
 a{
     text-decoration: none;
     padding: 2rem;
-    color:aliceblue;
+    color:black;
 }
 .header-img{
     width: 13rem;
@@ -30,10 +30,15 @@ a{
 .presentation-h1{
     margin-bottom: 150px;
     border: 3px solid black;
-    color:aliceblue;
+    color:rgb(20, 22, 22);
     text-align: center;
-    border-radius: 50%;
+    padding: 20px;
 
+}
+h1::first-letter{
+    color: black;
+    font-size: 50px;
+    font-style: italic;
 }
  .header-div{
     display: flex;
@@ -102,8 +107,8 @@ a{
 
 .title-h1{
     margin-bottom: 150px;
-    border: 3px solid black;
-    color:aliceblue;
+    border: 1px solid black;
+    color:black;
     text-align: center;
     border-radius: 50%;
 }
@@ -117,10 +122,13 @@ a{
 .experience-h1{
     margin-bottom: 150px;
     border: 3px solid black;
-    color:aliceblue;
+    color: black;
     text-align: center;
     height: 45px;
-    border-radius: 50%;
+    padding: 20px;
+   
+    
+    
 }
 
 
@@ -149,10 +157,10 @@ a{
 .contact-h1{
     margin-bottom: 150px;
     border: 3px solid black;
-    color:aliceblue;
+    color:black;
     text-align: center;
     height: 45px;
-    border-radius: 50%;
+    padding: 20px;
 }
 
 .contact-un h2{
@@ -207,7 +215,19 @@ a{
     background: rgb(93, 123, 93);
     font-family: 'Roboto', sans-serif;
     color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0 6px rgb(52, 73, 20);
+    border-radius: 50px;
 }
+    .form-button:active{
+        box-shadow: 0 0#efa424;
+        top: 10px
+    }
+
+
+
 .presentation-footer .links{
     display: flex;
     flex-direction: row;
