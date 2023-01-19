@@ -48,8 +48,7 @@ h1::first-letter{
     justify-content: center;
     flex-wrap: wrap;
     padding: 30px;
-  
-    overflow: hidden;
+    border: 2px solid white;
 }
 
 .header-div-pres .presentation-personnelle p{
@@ -110,7 +109,7 @@ h1::first-letter{
     height: 38rem;
     margin: 10px;
     text-align: start;
-    background: #c35022;
+    background-color: #696972;
     box-shadow: 20px 10px 20px 10px;
 }
 .header-div-pres .presentation-personnelle{
@@ -119,7 +118,7 @@ h1::first-letter{
     height: 38rem;
     margin: 10px;
     text-align: start;
-    background: #c35022;
+    background-color: #696972;
     box-shadow: 20px 10px 20px 10px;
 }
 .header-div-pres .presentation-hobbies{
@@ -128,7 +127,7 @@ h1::first-letter{
     height: 38rem;
     margin: 10px;
     text-align: start;
-    background: #c35022;
+    background-color: #696972;
     box-shadow: 20px 10px 20px 10px;
 }
 
@@ -137,11 +136,11 @@ h1::first-letter{
     justify-content: center;
     flex-wrap: wrap;
      padding: 30px;
-     overflow: hidden;
+     border: 2px solid white;
 }
 .header-div-exp  .h2{
 
-    animation: etire 1.2s infinite ease-in-out;        
+    /*animation: etire 2.8s infinite ease-in-out;    */    
     }
     @keyframes etire{
         0%{
@@ -214,7 +213,7 @@ h1::first-letter{
     height: 35rem;
     margin: 10px;
     text-align: center;
-    background: #c35022;
+    background-color: #696972;
     box-shadow: 20px 10px 20px 10px;
 }
 .header-div-exp .experience-deux{
@@ -224,17 +223,17 @@ h1::first-letter{
     height: 35rem;
     margin: 10px;
     text-align: center;
-    background: #c35022;
+    background-color: #696972;
     box-shadow: 20px 10px 20px 10px;
 }
 .header-div-exp .experience-trois{
 
     border: 1.5px solid black;
     width: 20rem;
-    height: 35rem;
+    height: 30rem;
     margin: 10px;
     text-align: center;
-    background: #c35022;
+    background-color: #696972;
     box-shadow: 10px 5px 10px 5px;
 }
 
@@ -242,7 +241,7 @@ h1::first-letter{
 
 .header-div .h2{
     font-size: 30px;
-    animation: etire 1.2s infinite ease-in-out;        
+    animation: 1.2s infinite ease-in-out;        
     }
     @keyframes etire{
         0%{
@@ -258,7 +257,7 @@ h1::first-letter{
 
     .header-div-pres .h2{
         font-size: 30px;
-    animation: etire 1.2s infinite ease-in-out;        
+    animation:  1.2s infinite ease-in-out;        
     }
     @keyframes etire{
         0%{
@@ -276,6 +275,7 @@ h1::first-letter{
     justify-content: center;
     flex-wrap: wrap;
     padding: 30px;
+    border: 2px solid white;
 }
 
 .header-div .formation-ecole-une h2{
@@ -337,7 +337,8 @@ h1::first-letter{
     height: 35rem;
     margin: 10px;
     text-align: center;
-    background: #c35022;
+    /*background: #c35022;*/
+    background-color: #696972;
     box-shadow: 20px 10px 20px 10px;
 }
 .header-div .formation-ecole-deux{
@@ -346,7 +347,7 @@ h1::first-letter{
     height: 35rem;
     margin: 10px;
     text-align: center;
-    background: #c35022;
+    background-color: #696972;
     box-shadow: 20px 10px 20px 10px;
 }
 .header-div .formation-ecole-trois{
@@ -355,7 +356,7 @@ h1::first-letter{
     height: 35rem;
     margin: 10px;
     text-align: center;
-    background: #c35022;
+    background-color: #696972;
     box-shadow: 20px 10px 20px 10px;
 }
 
@@ -369,7 +370,6 @@ ul{
 ul li{
     display: inline;
     list-style-type: none;
-    color: #484848;
     font-size: 30px;
     letter-spacing: 13px;
     animation:infinite flash 2.5s linear;
@@ -458,7 +458,7 @@ ul li:nth-child(9){
         justify-content: center;
         flex-wrap: wrap;
         padding: 30px;
-
+        border: 2px solid white;
     }
 
 .header-div .contact-une{
@@ -468,7 +468,7 @@ ul li:nth-child(9){
     height: 35rem;
     margin: 10px;
     text-align: center;
-    background: #c35022;
+    background-color: #696972;
     box-shadow: 20px 10px 20px 10px;
 }
 
@@ -484,12 +484,11 @@ ul li:nth-child(9){
 .header-div .contact-une p{
     position: relative;
     font-size: 20px;
-    color: #fff;
     top:-7rem;
     padding: 15px;
     text-align: center;
 }
-
+b
 /* .header-div .contact img{
         width: 350px;
         height: 300px;
@@ -552,8 +551,8 @@ ul li:nth-child(9){
         top: 10px
     }
 
-.links a{
-    color: black;
+.links-link a{
+
     /* text-decoration: underline; */
     font-size: 25px;
     /*transition: trasform 1s;*/
@@ -603,20 +602,28 @@ ul li:nth-child(9){
 a{
     text-decoration: none;
     padding: 2rem;
-    color:black;
+    text-align: center;
+    
+   
     
 }
 
-.links {
-    display: flex;
+.links-link a{
+    color:black;
+    display: inline-block;
     color: #fff900;
     box-shadow:0 0 7 #fff900, 0 0 50px #ff6c00;
     flex-direction:row;
     flex-wrap: wrap;
     text-decoration: none;
-     animation: etire 2s linear infinite; 
+     animation: flash 2s linear infinite;
+     border: 2px solid white;
+     background-color: #696972;
+    
+     
      /*animation:  flash 2s linear infinite;*/ 
 }
+
 
 footer{
     border-top: 1px solid #333;
